@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="652" height="394" viewBox="0 0 652 394">
+  <g id="レンジ" transform="translate(-76 -209)">
+    <g id="長方形_2" data-name="長方形 2" transform="translate(76 209)" fill="#b4b4b4" stroke="#707070" stroke-width="1">
+      <rect width="652" height="394" rx="27" stroke="none"/>
+      <rect x="0.5" y="0.5" width="651" height="393" rx="26.5" fill="none"/>
+    </g>
+    <g id="長方形_3" data-name="長方形 3" transform="translate(107 250)" fill="#f9ffb2" stroke="#707070" stroke-width="1">
+      <rect width="437" height="326" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="436" height="325" rx="6.5" fill="none"/>
+    </g>
+    <g id="楕円形_1" data-name="楕円形 1" transform="translate(573 453)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="55" cy="55" r="55" stroke="none"/>
+      <circle cx="55" cy="55" r="54.5" fill="none"/>
+    </g>
+    <g id="長方形_4" data-name="長方形 4" transform="translate(618 468)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="21" height="81" rx="10.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20" height="80" rx="10" fill="none"/>
+    </g>
+  </g>
+</svg>

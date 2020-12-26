@@ -1,0 +1,22 @@
+body,
+input,
+textarea {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ",
+    "Meiryo", "verdana", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+li {
+  font-size: 1.6rem;
+}
+li p {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,150 @@
+body {
+  color: #333;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header h1 {
+  font-family: "Open Sans";
+  font-size: 2.8rem;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+}
+
+.header {
+  padding-left: 13px;
+  height: 50px;
+}
+
+.bg-green {
+  background-color: #14b7aa;
+}
+
+.white {
+  color: #fff;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.mv-bg {
+  max-width: 700px;
+  position: relative;
+}
+
+.mv-img {
+  width: 100%;
+}
+
+.mv-content {
+  padding: 5%;
+  position: absolute;
+  width: 66.8%;
+  height: 82.5%;
+  top: 10.5%;
+  left: 5%;
+}
+
+.mv-content {
+  font-size: 2.2rem;
+}
+
+.media {
+  display: none;
+}
+
+.result {
+  margin-top: 70px;
+  font-size: 3.2rem;
+}
+
+.form p {
+  font-size: 2.2rem;
+  display: inline-block;
+  line-height: 5;
+}
+
+.inputs {
+  letter-spacing: 0.5rem;
+  line-height: 2;
+}
+
+.selectWrap {
+  position: relative;
+  width: 150px;
+  display: inline-block;
+}
+.selectWrap::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-bottom: solid 2px #b4b3b3;
+  border-right: solid 2px #b4b3b3;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -4px;
+}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  padding: 0 40px 0 10px;
+  border: 1px solid #b4b3b3;
+  border-radius: 2px;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 50px;
+  height: 80px;
+  width: 160px;
+  border-radius: 8px;
+  font-size: 2.8rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+  box-shadow: 0 5px #02978a;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.footer {
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 20px;
+}
+.footer p {
+  font-size: 1.5rem;
+  text-align: center;
+}

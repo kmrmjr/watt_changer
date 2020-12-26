@@ -1,0 +1,84 @@
+@media screen and (min-width: 1700px) {
+  main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    max-width: 1200px;
+    display: block;
+    margin-top: 40px;
+  }
+
+  .inputs {
+    margin-top: 30px;
+  }
+
+  .mv-bg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .media {
+    display: inline;
+  }
+
+  .rsp {
+    display: none;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .btn {
+    letter-spacing: 1em;
+    text-indent: 1em;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .result {
+    font-size: 3.5rem;
+    margin-top: 50px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .rsp {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 7px;
+  }
+
+  .selectWrap {
+    width: 100px;
+  }
+
+  .result {
+    margin-top: 30px;
+  }
+
+  .inputs p {
+    line-height: 8rem;
+  }
+
+  .btn {
+    font-size: 4.5rem;
+    width: 70%;
+  }
+
+  .footer {
+    text-align: center;
+    margin-right: 0;
+  }
+}

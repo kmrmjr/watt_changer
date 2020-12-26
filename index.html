@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Watt Changer - 電子レンジの加熱時間を自動計算するサイト</title>
+  <meta name="description" content="電子レンジの温めを他のW数で行う際の時間を計算することができます。">
+</head>
+<body>
+    <header class="header bg-green white">
+      <h1>Watt Changer</h1>
+    </header>
+  <main>
+    <section class="mv">
+      <div class="mv-bg">
+        <img src="img/microwave.svg" alt="" class="mv-img">
+        <div class="mv-content" id="mv-content">
+          <p>こちらに計算結果が表示されます。</p>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="inputs">
+        <div class="selectWrap">
+          <select class="select" name="" id="inputWatt">
+            <option value="100">100W</option>
+            <option value="200">200W</option>
+            <option value="300">300W</option>
+            <option value="400">400W</option>
+            <option value="500" selected>500W</option>
+            <option value="600">600W</option>
+            <option value="700">700W</option>
+            <option value="800">800W</option>
+            <option value="900">900W</option>
+            <option value="1000">1000W</option>
+            <option value="1100">1100W</option>
+            <option value="1200">1200W</option>
+            <option value="1300">1300W</option>
+            <option value="1400">1400W</option>
+            <option value="1500">1500W</option>
+          </select>
+        </div>
+        <br class="rsp">
+        <div class="selectWrap" >
+          <select class="select" name="" id="minute">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <p>分</p>
+        <div class="selectWrap">
+          <select class="select" name="" id="second">
+            <option value="0" selected>00</option>
+            <option value="5">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+          </select>
+        </div>
+        <p>秒を</p><br>
+        <div class="selectWrap">
+          <select class="select" name="" id="convWatt">
+            <option value="100">100W</option>
+            <option value="200">200W</option>
+            <option value="300">300W</option>
+            <option value="400">400W</option>
+            <option value="500">500W</option>
+            <option value="600" selected>600W</option>
+            <option value="700">700W</option>
+            <option value="800">800W</option>
+            <option value="900">900W</option>
+            <option value="1000">1000W</option>
+            <option value="1100">1100W</option>
+            <option value="1200">1200W</option>
+            <option value="1300">1300W</option>
+            <option value="1400">1400W</option>
+            <option value="1500">1500W</option>
+          </select>
+        </div>
+        <p>に変換</p>
+      </div>
+      <button class="btn bg-green white" id="convButton">変換</button>
+    </section>
+  </main>
+  <footer class="footer bg-green white">
+    <p>©2020 Kimura</p>
+  </footer>
+  <script src="script/main.js"></script>
+</body>
+</html>
