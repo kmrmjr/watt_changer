@@ -9,5 +9,5 @@ You can know how long it takes to worm up your food in microwave at different po
 - Kaito Kimura
 - setoengr@gmail.com
 
-# Licence
-Watt Changer is under MIT Licence
+# License
+Watt Changer is under MIT License
