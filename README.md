@@ -1,9 +1,13 @@
-# [Watt Changer](https://wattchanger.netlify.app/)
+# Watt Changer
+https://wattchanger.netlify.app/  
+![sample-app-img](./img/sample-app-img.png)
 
-[![Watt Changer](https://user-images.githubusercontent.com/67997077/127481654-95d7b4ba-b2a0-47d8-9dee-20a44191c777.png)](https://wattchanger.netlify.app/)
+Watt Changer is a microwave wattage converter running on the web.  
+You can know how long it takes to worm up your food in microwave at different power wattage.
 
-## 概要  
-電子レンジによる加熱を、他のW数で行う際の加熱時間を計算することができるwebアプリケーション。
+# Auther
+- Kaito Kimura
+- setoengr@gmail.com
 
-## 環境
-HTML5, CSS3, JavaScript, Netlify
+# Licence
+Watt Changer is under MIT Licence
